@@ -1,0 +1,110 @@
+body {
+  background-color: #121212;
+  color: #f2f2f2;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #282828;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 80%;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.poster {
+  width: 20%;
+  height: 80%;
+  border-radius: 5px;
+  margin-right: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; 
+}
+
+.poster img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+}
+
+
+.poster img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+}
+
+.player-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.player {
+  width: 100%;
+}
+
+.player audio {
+  width: 100%;
+}
+
+.song-details {
+  margin-top: -10px;
+  font-size: 16px;
+  color: #b3b3b3;
+}
+
+.song-details h3 {
+  color: #ffffff;
+  font-size: 2em;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 5px;
+}
+
+.lyrics-container {
+  background-color: #282828;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 80%;
+  flex-wrap: wrap;
+}
+
+.lyrics {
+  background-color: #282828;
+  flex: 1 1 40%; 
+  color: #b3b3b3;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  font-family: 'Indie Flower', cursive;
+}
+
+.lyrics h2 {
+  color: #ffffff;
+  font-family: 'Playfair Display', serif;
+}
+
+.lyrics p {
+  white-space: pre-wrap;
+}
